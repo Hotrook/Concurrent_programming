@@ -1,0 +1,39 @@
+V "GNAT Lib v2016"
+P ZX
+
+RN
+RV NO_UNCHECKED_DEALLOCATION
+RV SPARK_05
+
+U tupleclass%s		tupleclass.ads		86ccfaed NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.unchecked_deallocation%s
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nuflra.ads		20160516092928 4056ab7a ada.numerics.float_random%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D system.ads		20160516092931 c3282aa7 system%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-rannum.ads		20160516092929 99ade2f2 system.random_numbers%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D tupleclass.ads	20170519160607 37c00f46 tupleclass%s
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 2r6 2r37
+X 2 a-numeri.ads
+16K13*Numerics 32e17 11|2r10 2r41
+X 3 a-nuflra.ads
+41K22*Float_Random 74e30 11|2w19 2r50
+X 5 a-uncdea.ads
+20u15*Unchecked_Deallocation 11|1w10
+X 11 tupleclass.ads
+6K9*TupleClass 16l5 16e15
+10R10*Tuple 12e15
+11i9*TID{integer}
+11i14*LID{integer}
+11i19*priority{integer}
+

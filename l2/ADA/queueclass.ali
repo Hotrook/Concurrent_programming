@@ -1,0 +1,68 @@
+V "GNAT Lib v2016"
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U queueclass%b		queueclass.adb		24f657a5 NE OO PK IL
+
+U queueclass%s		queueclass.ads		33ee5a1c EE OO PF PK IL
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W types%s		types.ads		types.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D queueclass.ads	20170524155558 71aa7890 queueclass%s
+D queueclass.adb	20170524173306 555c2f35 queueclass%b
+D system.ads		20160516092931 c3282aa7 system%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20160516092930 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D types.ads		20170526173632 4244228c types%s
+X 6 queueclass.ads
+3K9*QueueClass 17l5 17e15 7|3b14 46l5 46t15
+5R10*Queue 5d17 11e15 13p14 13r34 14p15 14r32 15p14 15r30 7|5r34 17r32 27r30
+5i17*n{integer} 6r27 7r31
+6a9*q{20|3A10} 7|20m11 39r22
+7i9*capacity{integer} 7|22r23 35r28
+8i9*start{integer} 7|32r23 33m15 33r26 35r18 36m19
+9i9*stop{integer} 7|20r16 21m11 21r21 22r14 23m15
+10i9*size{integer} 7|7r14 19m11 19r21 30r14 31m15 31r25
+13V14*isEmpty{boolean} 13^23 7|5b14 12l9 12t16
+13p23 Q(5R10) 7|5b23 7r12
+14U15*push 14^21 14>39 7|17b15 25l9 25t13
+14p21 Q(5R10) 7|17b21 19r9 19r19 20r9 20r14 21r9 21r19 22r12 22r21 23r13
+14i39 E{integer} 7|17b39 20r26
+15V14*pop{integer} 15^19 7|27b14 43l9 43t12
+15p19 Q(5R10) 7|27b19 30r12 31r13 31r23 32r21 33r13 33r24 35r16 35r26 36r17
+. 39r20
+X 7 queueclass.adb
+28i9 temp{integer} 32m13 39r25
+X 20 types.ads
+2K9*Types 6|1w6 1r17 20|8e10
+3A10*Int_Array(integer)<integer> 6|6r13
+

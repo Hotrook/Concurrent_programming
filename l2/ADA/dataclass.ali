@@ -1,0 +1,130 @@
+V "GNAT Lib v2016"
+P SS ZX
+
+RN
+RV NO_DELAY
+RV NO_DISPATCHING_CALLS
+RV NO_FIXED_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U dataclass%b		dataclass.adb		c4333556 NE OO PK
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U dataclass%s		dataclass.ads		d3b50e4b EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W functions%s		functions.adb		functions.ali
+W lineclass%s		lineclass.adb		lineclass.ali
+Y switchtaskclass%s	switchtaskclass.adb	switchtaskclass.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W types%s		types.ads		types.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-calend.ads		20160516092931 2d5f01d4 ada.calendar%s
+D a-caldel.ads		20160516092927 9f20b83d ada.calendar.delays%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nuflra.ads		20160516092928 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D dataclass.ads		20170526175034 969e03c5 dataclass%s
+D dataclass.adb		20170521213713 52ad3693 dataclass%b
+D functions.ads		20170526175030 d758d86e functions%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092927 e53d8b8e interfaces.c_streams%s
+D lineclass.ads		20170522004830 5ad90bc4 lineclass%s
+D switchtaskclass.ads	20170526174845 3be20903 switchtaskclass%s
+D system.ads		20160516092931 c3282aa7 system%s
+D s-conca4.ads		20160516092931 7e642b20 system.concat_4%s
+D s-crtl.ads		20160516092927 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092933 078245e4 system.file_control_block%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092929 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20160516092930 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092931 1b7d22d2 system.wch_con%s
+D types.ads		20170526173632 4244228c types%s
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 2r6 2r37
+X 7 a-numeri.ads
+16K13*Numerics 32e17 15|2r10 2r41
+X 8 a-nuflra.ads
+41K22*Float_Random 74e30 15|2w19 2r50
+X 13 a-uncdea.ads
+20u15*Unchecked_Deallocation 15|1w10
+X 15 dataclass.ads
+9K9*DataClass 40l5 40e14 16|4b14 25l5 25t14
+13R10*Data 13d15 13d18 28e15 30r35 34p15 34r64 16|8r64
+13i15*n{natural} 15r26 24r31 24r37
+13i18*linesNumber{natural} 14r26
+14i9*lNr{integer}
+15i9*sNr{integer}
+16p9*lines(20|30A10) 16|12r33 13r21 16r46
+17p9*switchTasks
+18p9*switches
+19p9*trains
+20p9*trainTasks
+21p9*CCT
+22p9*CC
+23p9*breakdownGenerator
+24a9*edges{42|4A10}
+25p9*r
+26i9*t{integer} 16|15r45 18r45
+27i9*mult{integer} 16|16r71
+30P10*DataAccess(13R10)
+34U15*goTheLine 34>26 34>30 34>35 34^53 16|8b15 19l9 19t18
+34i26 s1{integer} 16|8b26 12r27
+34i30 LID{integer} 16|8b30 12r40 13r28 15r37 16r53 18r37
+34i35 TID{integer} 16|8b35 14r47 17r47
+34p53 D(13R10) 16|8b53 12r31 13r19 15r43 16r44 16r69 18r43
+X 16 dataclass.adb
+9i9 speed{integer} 12m9 13r43
+10i9 goTime{integer} 13m9 16r35
+X 17 functions.ads
+8K9*Functions 15|7w6 7r33 17|17e14
+12U15*printFrost 16|14s9 17s9
+13V14*Minimum{integer} 16|12s18
+X 20 lineclass.ads
+8K9*LineClass 15|4w6 4r33 20|43e14
+16i9*length{integer} 16|13r34
+17i9*maxSpeed{integer} 16|12r46
+18i9*minStop{integer} 16|16r59
+30A10*Line_Array(12R10)<integer> 15|16r24
+X 22 switchtaskclass.ads
+13K9 SwitchTaskClass 15|17r30 18r27 19r25 20r29 21r22 22r21 23r37 25r20
+X 42 types.ads
+2K9*Types 15|6w6 6r33 42|8e10
+4A10*Int_Array2(integer)<integer><integer> 15|24r17
+

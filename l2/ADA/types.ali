@@ -1,0 +1,23 @@
+V "GNAT Lib v2016"
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U types%s		types.ads		4244228c NE OO PK
+
+D system.ads		20160516092931 c3282aa7 system%s
+D types.ads		20170526173632 4244228c types%s
+X 2 types.ads
+2K9*Types 8l5 8e10
+3A10*Int_Array(integer)<integer>
+4A10*Int_Array2(integer)<integer><integer>
+5P10*IntPointer(integer) 6r59
+6A10*IntPointerArray(5P10)<integer>
+7E10*BREAK_TYPE 7e46
+7n25*SWITCH{7E10}
+7n33*LINE{7E10}
+7n39*TRAIN{7E10}
+

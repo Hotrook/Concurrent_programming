@@ -1,0 +1,115 @@
+Pociąg 1 wjeżdza na tor 2
+Pociąg 2 wjeżdza na tor 10
+Pociąg 3 wjeżdza na tor 4
+Pociąg 4 wjeżdza na tor 14
+Pociąg 5 wjeżdza na tor 19
+Pociąg 6 wjeżdza na tor 13
+Pociąg 7 wjeżdza na tor 10
+Pociąg 8 wjeżdza na tor 1
+Pociąg 9 wjeżdza na tor 8
+Pociąg 2 dojechał na koniec toru 10
+Zwrotnica 9 zaczyna obracać pociąg 2 na tor 10
+Pociąg 7 dojechał na koniec toru 10
+Zwrotnica 9 obróciła pociąg 2 na tor 36
+Zwrotnica 9 zaczyna obracać pociąg 7 na tor 10
+Pociąg 2 stoi na torze postojowym nr 36
+Pociąg 6 dojechał na koniec toru 13
+Zwrotnica 9 obróciła pociąg 7 na tor 36
+Zwrotnica 9 zaczyna obracać pociąg 6 na tor 13
+Pociąg 7 stoi na torze postojowym nr 36
+Pociąg 9 dojechał na koniec toru 8
+Zwrotnica 3 zaczyna obracać pociąg 9 na tor 8
+Pociąg 8 dojechał na koniec toru 1
+Zwrotnica 9 obróciła pociąg 6 na tor 36
+Pociąg 6 stoi na torze postojowym nr 36
+Pociąg 3 dojechał na koniec toru 4
+Zwrotnica 5 zaczyna obracać pociąg 3 na tor 32
+Pociąg 1 dojechał na koniec toru 2
+Pociąg 4 dojechał na koniec toru 14
+Zwrotnica 15 zaczyna obracać pociąg 4 na tor 42
+Zwrotnica 3 obróciła pociąg 9 na tor 30
+Zwrotnica 3 zaczyna obracać pociąg 8 na tor 1
+Pociąg 9 stoi na torze postojowym nr 30
+Pociąg 5 dojechał na koniec toru 19
+Zwrotnica 5 obróciła pociąg 3 na tor 32
+Zwrotnica 5 zaczyna obracać pociąg 1 na tor 2
+Pociąg 3 stoi na torze postojowym nr 32
+Zwrotnica 10 zaczyna obracać pociąg 2 na tor 36
+Zwrotnica 3 obróciła pociąg 8 na tor 30
+Pociąg 8 stoi na torze postojowym nr 30
+Zwrotnica 10 obróciła pociąg 2 na tor 15
+Pociąg 2 wjeżdza na tor 15
+Zwrotnica 15 obróciła pociąg 4 na tor 42
+Zwrotnica 15 zaczyna obracać pociąg 5 na tor 19
+Pociąg 4 stoi na torze postojowym nr 42
+Pociąg 2 dojechał na koniec toru 15
+Zwrotnica 8 zaczyna obracać pociąg 2 na tor 15
+Zwrotnica 10 zaczyna obracać pociąg 7 na tor 36
+Zwrotnica 5 obróciła pociąg 1 na tor 32
+Pociąg 1 stoi na torze postojowym nr 32
+Zwrotnica 6 zaczyna obracać pociąg 3 na tor 32
+Zwrotnica 10 obróciła pociąg 7 na tor 15
+Zwrotnica 10 zaczyna obracać pociąg 6 na tor 16
+Pociąg 7 wjeżdza na tor 15
+Zwrotnica 4 zaczyna obracać pociąg 9 na tor 6
+Pociąg 7 dojechał na koniec toru 15
+Zwrotnica 10 obróciła pociąg 6 na tor 16
+Pociąg 6 wjeżdza na tor 16
+Zwrotnica 15 obróciła pociąg 5 na tor 42
+Pociąg 5 stoi na torze postojowym nr 42
+Pociąg 6 dojechał na koniec toru 16
+Zwrotnica 13 zaczyna obracać pociąg 6 na tor 40
+Zwrotnica 6 obróciła pociąg 3 na tor 9
+Zwrotnica 6 zaczyna obracać pociąg 1 na tor 32
+Pociąg 3 wjeżdza na tor 9
+Zwrotnica 8 obróciła pociąg 2 na tor 35
+Zwrotnica 8 zaczyna obracać pociąg 7 na tor 15
+Zwrotnica 4 obróciła pociąg 9 na tor 6
+Zwrotnica 4 zaczyna obracać pociąg 8 na tor 30
+Pociąg 9 wjeżdza na tor 6
+Pociąg 2 stoi na torze postojowym nr 35
+Zwrotnica 16 zaczyna obracać pociąg 4 na tor 27
+Zwrotnica 13 obróciła pociąg 6 na tor 40
+Pociąg 6 stoi na torze postojowym nr 40
+Pociąg 9 dojechał na koniec toru 6
+Zwrotnica 11 zaczyna obracać pociąg 9 na tor 6
+Zwrotnica 4 obróciła pociąg 8 na tor 5
+Pociąg 8 wjeżdza na tor 5
+Pociąg 3 dojechał na koniec toru 9
+Zwrotnica 7 zaczyna obracać pociąg 3 na tor 9
+Zwrotnica 6 obróciła pociąg 1 na tor 10
+Pociąg 1 wjeżdza na tor 10
+Pociąg 1 dojechał na koniec toru 10
+Zwrotnica 9 zaczyna obracać pociąg 1 na tor 10
+Zwrotnica 11 obróciła pociąg 9 na tor 38
+Pociąg 9 stoi na torze postojowym nr 38
+Zwrotnica 8 obróciła pociąg 7 na tor 35
+Pociąg 7 stoi na torze postojowym nr 35
+Zwrotnica 9 obróciła pociąg 1 na tor 36
+Pociąg 1 stoi na torze postojowym nr 36
+Zwrotnica 16 obróciła pociąg 4 na tor 27
+Zwrotnica 16 zaczyna obracać pociąg 5 na tor 42
+Pociąg 4 wjeżdza na tor 27
+Pociąg 8 dojechał na koniec toru 5
+Zwrotnica 6 zaczyna obracać pociąg 8 na tor 5
+Pociąg 4 dojechał na koniec toru 27
+Zwrotnica 14 zaczyna obracać pociąg 4 na tor 27
+Zwrotnica 7 obróciła pociąg 3 na tor 34
+Pociąg 3 stoi na torze postojowym nr 34
+Zwrotnica 6 obróciła pociąg 8 na tor 33
+Pociąg 8 stoi na torze postojowym nr 33
+Zwrotnica 10 zaczyna obracać pociąg 1 na tor 16
+Zwrotnica 16 obróciła pociąg 5 na tor 26
+Pociąg 5 wjeżdza na tor 26
+Zwrotnica 7 zaczyna obracać pociąg 2 na tor 35
+Zwrotnica 14 obróciła pociąg 4 na tor 0
+panic: runtime error: integer divide by zero
+
+goroutine 8 [running]:
+main.(*Train).goCurrentLine(0xc42002cd80, 0xc420072000)
+	/Users/sebastianmroz/Desktop/CODING/InformatykaPWR/3rok/2_semester/ProgramowanieWspółbieżne/l2/GO/Train.go:116 +0x104
+main.(*Train).start(0xc42002cd80, 0xc420072000)
+	/Users/sebastianmroz/Desktop/CODING/InformatykaPWR/3rok/2_semester/ProgramowanieWspółbieżne/l2/GO/Train.go:61 +0x1fe
+created by main.main
+	/Users/sebastianmroz/Desktop/CODING/InformatykaPWR/3rok/2_semester/ProgramowanieWspółbieżne/l2/GO/z1.go:59 +0x74c
+MacBook-Air-Sebastian:GO seba$ 

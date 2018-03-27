@@ -1,0 +1,14 @@
+package main
+
+
+const (
+	RELEASE = iota
+	GO 
+	BREAKDOWN
+	TRAIN
+	SWITCH
+	LINE
+	RETRY
+	RECOVERY
+	ORIGIN
+)

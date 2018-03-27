@@ -1,0 +1,183 @@
+V "GNAT Lib v2016"
+M P W=b
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_ANONYMOUS_ALLOCATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U z1ada%b		z1ada.adb		4a326eaf NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W buffor%s		buffor.adb		buffor.ali
+W dataclass%s		dataclass.adb		dataclass.ali
+W functions%s		functions.adb		functions.ali
+W lineclass%s		lineclass.adb		lineclass.ali
+W readfunctions%s	readfunctions.adb	readfunctions.ali
+W switchtaskclass%s	switchtaskclass.adb	switchtaskclass.ali
+W system%s		system.ads		system.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W types%s		types.ads		types.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nuflra.ads		20160516092928 4056ab7a ada.numerics.float_random%s
+D a-reatim.ads		20160516092928 a87e2da7 ada.real_time%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D buffor.ads		20170519161407 b47c9938 buffor%s
+D dataclass.ads		20170526175034 969e03c5 dataclass%s
+D functions.ads		20170526175030 d758d86e functions%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-c.ads		20160516092927 5421119b interfaces.c%s
+D i-cstrea.ads		20160516092927 e53d8b8e interfaces.c_streams%s
+D lineclass.ads		20170522004830 5ad90bc4 lineclass%s
+D queueclass.ads	20170524155558 71aa7890 queueclass%s
+D readfunctions.ads	20170526175102 34ac35b6 readfunctions%s
+D switchtaskclass.ads	20170526174845 3be20903 switchtaskclass%s
+D system.ads		20160516092931 c3282aa7 system%s
+D s-atacco.ads		20160516092931 4c36d12f system.address_to_access_conversions%s
+D s-conca3.ads		20160516092932 0b705ca5 system.concat_3%s
+D s-conca4.ads		20160516092931 7e642b20 system.concat_4%s
+D s-crtl.ads		20160516092927 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092933 078245e4 system.file_control_block%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-multip.ads		20160516092926 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20160516210021 3be6931c system.os_constants%s
+D s-osinte.ads		20160516092931 8eb5b5b4 system.os_interface%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092929 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stausa.ads		20160516092930 017a0a05 system.stack_usage%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-tasinf.ads		20160516092929 801abd01 system.task_info%s
+D s-taspri.ads		20160516092928 e3ab4429 system.task_primitives%s
+D s-taprop.ads		20160516092928 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20160516092932 0766baa7 system.tasking%s
+D s-taprob.ads		20160516092928 502249e3 system.tasking.protected_objects%s
+D s-tpoben.ads		20160516092932 b641f948 system.tasking.protected_objects.entries%s
+D s-tasren.ads		20160516092927 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20160516092929 70812003 system.tasking.stages%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092931 1b7d22d2 system.wch_con%s
+D tupleclass.ads	20170519160607 37c00f46 tupleclass%s
+D types.ads		20170526173632 4244228c types%s
+D z1ada.adb		20170526174052 3ca44e75 z1ada%b
+X 1 ada.ads
+16K9*Ada 19e8 59|2r6 2r23 3r6 3r31
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[12|46] 59|3w10 3r35
+X 11 a-textio.ads
+49K13*Text_IO 471e16 59|2w10 2r27
+263U14*Put_Line 59|71s17 74s17 78s25 82s25 88s25 91s25 96s25 99s25
+X 12 a-tiinio.ads
+56U14*Get 59|20s5[4|18] 21s5[4|18] 22s5[4|18] 23s5[4|18] 24s5[4|18] 45s9[4|18]
+. 46s9[4|18] 72s17[4|18] 73s17[4|18]
+66U14*Put 59|75s17[4|18]
+X 15 buffor.ads
+7K9*Buffor 25e11 59|9w6 9r29
+X 16 dataclass.ads
+9K9*DataClass 40e14 59|8w6 8r29
+13R10*Data 28e15 59|27r31
+16p9*lines(21|30A10) 59|33m11 87r26
+17p9*switchTasks 59|31m11 62r15
+18p9*switches 59|62r57 95r26
+19p9*trains 59|34m11 57r54
+20p9*trainTasks 59|32m11 57r15 58r15
+21p9*CCT 59|48m11 65r11
+22p9*CC 59|47m11 48r32
+23p9*breakdownGenerator 59|67m11
+25p9*r 59|35m11 52r15 53r15
+26i9*t{integer} 59|38m11 69r14
+30P10*DataAccess(13R10) 59|27r13
+X 17 functions.ads
+8K9*Functions 17e14 59|11w6 11r29
+X 21 lineclass.ads
+8K9*LineClass 43e14 59|7w6 7r29 10w6 10r29
+23b9*isOccupied{boolean} 59|87r38
+30A10*Line_Array(12R10)<integer> 59|33r24
+X 23 readfunctions.ads
+11K9*ReadFunctions 21e18 59|12w6 12r29
+14U15*getConfigurationFromFile 59|37s9
+15U15*readSwitches 59|41s9
+17U15*readGoLines 59|42s9
+18U15*readStopLines 59|43s9
+19U15*readTrains 59|44s9
+X 24 switchtaskclass.ads
+13K9*SwitchTaskClass 171e20 59|6w6 6r29
+18T15*SwitchTask 24e19 59|62r39
+28A10*SwitchTaskArray(18T15)<integer> 59|31r30
+38b9*isOccupied{boolean} 59|95r41
+58T15*Retrier 62e16 59|29r20 52r29
+59Y15 START 59|53s22
+64A10*RetrierArray(58T15)<integer> 59|35r20
+75i9*currentLine{integer} 59|80r52 84r54
+77b9*isStop{boolean} 59|77r37
+85A10*TrainArray(70R10)<integer> 59|28r26 28r44 34r25
+87T15*TrainTask 94e18 59|57r38
+90Y15 Start 59|58s31
+96P10*TrainTaskPointer(87T15)
+97A10*TrainTaskArray(96P10)<integer> 59|32r29
+116T15*BG 118e11 59|67r37
+124R10*ConstructionCrew 132e15 59|47r21
+135T15*CCTask 142e15 59|48r22
+138Y15 START 59|65s15
+X 42 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 58 types.ads
+2K9*Types 8e10 59|5w6 5r29
+X 59 z1ada.adb
+14U11*Z1ada 14b11 109l5 109t10
+15i5 n{integer} 20m10 27r37 31r49 41r26 61r35 67r52
+15i8 m{integer} 21m10 27r40 33r39 42r25 43r27 67r47
+15i11 k{integer} 22m10 27r42 33r41 43r30 67r49
+15i14 p{integer} 23m10 28r58 32r47 34r40 35r37 44r24 51r35 56r35 67r44
+15i17 t{integer} 24m10 38r16
+16i5 start{integer} 45m14 47r39
+16i12 constCrewTime{integer} 46m14 47r46
+18i5 what{integer} 72m22 76r20 86r23 94r23
+18i11 id{integer} 73m22 75r22 77r32 78r61 80r47 82r61 84r49 87r33 88r60 91r60
+. 95r36 96r64 99r64
+27p9 D{16|30P10} 31r9 32r9 33r9 34r9 35r9 37r35 38r9 41r23 42r22 43r24 44r21
+. 47r9 47r61 48r9 48r30 48r36 52r13 52r38 53r13 57r13 57r49 57r52 58r13 62r13
+. 62r55 62r72 65r9 67r9 67r41 69r12 87r24 95r24
+28p9 trains(24|85A10) 77r24 80r39 84r41
+29p9 r(24|58T15)
+51i13 I{integer} 52r18 53r18
+56i13 I{integer} 57r27 57r62 58r27
+61i13 I{integer} 62r28 62r51 62r67
+

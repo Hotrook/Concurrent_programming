@@ -1,0 +1,206 @@
+V "GNAT Lib v2016"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_ANONYMOUS_ALLOCATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U readfunctions%b	readfunctions.adb	42dc167d NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+
+U readfunctions%s	readfunctions.ads	085f2457 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W buffor%s		buffor.adb		buffor.ali
+W dataclass%s		dataclass.adb		dataclass.ali
+W lineclass%s		lineclass.adb		lineclass.ali
+W switchtaskclass%s	switchtaskclass.adb	switchtaskclass.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nuflra.ads		20160516092928 4056ab7a ada.numerics.float_random%s
+D a-reatim.ads		20160516092928 a87e2da7 ada.real_time%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D buffor.ads		20170519161407 b47c9938 buffor%s
+D dataclass.ads		20170526175034 969e03c5 dataclass%s
+D functions.ads		20170526175030 d758d86e functions%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-c.ads		20160516092927 5421119b interfaces.c%s
+D i-cstrea.ads		20160516092927 e53d8b8e interfaces.c_streams%s
+D lineclass.ads		20170522004830 5ad90bc4 lineclass%s
+D queueclass.ads	20170524155558 71aa7890 queueclass%s
+D readfunctions.ads	20170526175102 34ac35b6 readfunctions%s
+D readfunctions.adb	20170526174959 095aaa10 readfunctions%b
+D switchtaskclass.ads	20170526174845 3be20903 switchtaskclass%s
+D system.ads		20160516092931 c3282aa7 system%s
+D s-atacco.ads		20160516092931 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20160516092927 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092933 078245e4 system.file_control_block%s
+D s-multip.ads		20160516092926 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20160516210021 3be6931c system.os_constants%s
+D s-osinte.ads		20160516092931 8eb5b5b4 system.os_interface%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092929 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stausa.ads		20160516092930 017a0a05 system.stack_usage%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-tasinf.ads		20160516092929 801abd01 system.task_info%s
+D s-taspri.ads		20160516092928 e3ab4429 system.task_primitives%s
+D s-taprop.ads		20160516092928 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20160516092932 0766baa7 system.tasking%s
+D s-tassta.ads		20160516092929 70812003 system.tasking.stages%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092931 1b7d22d2 system.wch_con%s
+D tupleclass.ads	20170519160607 37c00f46 tupleclass%s
+D types.ads		20170526173632 4244228c types%s
+X 1 ada.ads
+16K9*Ada 19e8 22|1r6 2r6 2r37 3r6 3r23 4r6 4r31 23|2r6 3r6 3r37 4r6 4r23
+. 5r6 5r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 22|4w10 4r35 23|5w10 5r35
+X 5 a-numeri.ads
+16K13*Numerics 32e17 22|2r10 2r41 23|3r10 3r41
+X 6 a-nuflra.ads
+41K22*Float_Random 74e30 22|2w19 2r50 23|3w19 3r50
+X 10 a-textio.ads
+49K13*Text_IO 471e16 22|3w10 3r27 23|4w10 4r27
+52P9*File_Type 23|12r22
+53n23*In_File{53E9} 23|16r26
+92U14*Open 23|16s9
+98U14*Close 23|19s9
+X 11 a-tiinio.ads
+51U14*Get 23|17s9[3|18] 18s9[3|18]
+56U14*Get 23|39s13[3|18] 57s13[3|18] 58s13[3|18] 59s13[3|18] 60s13[3|18]
+. 88s9[3|18] 89s9[3|18] 90s9[3|18] 91s9[3|18] 116s13[3|18] 117s13[3|18] 118s13[3|18]
+. 128s17[3|18]
+X 13 a-uncdea.ads
+20u15*Unchecked_Deallocation 22|1w10 23|2w10
+X 14 buffor.ads
+7K9*Buffor 25e11 22|8w6 8r18
+X 15 dataclass.ads
+9K9*DataClass 40e14 22|6w6 14r52 15r40 17r39 18r41 19r38 23|11r52 28r40 50r39
+. 81r41 109r38
+13R10*Data 28e15 22|14r62 15r50 17r49 18r51 19r48 23|11r62 28r50 50r49 81r51
+. 109r48
+16p9*lines(20|30A10) 23|66r15 68r15 69r15 70r15 71r15 72r15 73r15 74r15 75r15
+. 93r11 94r11 95r11 96r11 97r11 98r11 99r11 100r11 101r11 102r11 103r11
+18p9*switches 23|32m11 40r15 41r15 42r15 43r15
+19p9*trains 23|119r15 120r15 121r15 122r15 123r15 124r15 125r15 126r15 129r19
+24a9*edges{51|4A10} 23|35m19 65m15 92m11
+26i9*t{integer} 23|20m11
+27i9*mult{integer} 23|21m11
+X 20 lineclass.ads
+8K9*LineClass 43e14 22|9w6 9r21 23|66r33 93r29
+12R10*Line 25e15 23|66r43 93r39
+14i9*first{integer} 23|68m26 94m22
+15i9*second{integer} 23|69m26 95m22
+16i9*length{integer} 23|70m26 96m22
+17i9*maxSpeed{integer} 23|71m26 97m22
+18i9*minStop{integer} 23|72m26 98m22
+19i9*capacity{integer} 23|99m22
+20i9*occupied{integer} 23|100m22
+22b9*isStopLine{boolean} 23|73m26 101m22
+23b9*isOccupied{boolean} 23|74m26 102m22
+24b9*isBroken{boolean} 23|75m26 103m22
+30A10*Line_Array(12R10)<integer>
+X 22 readfunctions.ads
+11K9*ReadFunctions 21l5 21e18 23|7b14 137l5 137t18
+14U15*getConfigurationFromFile 14^41 23|11b15 22l9 22t33
+14p41 D(15|13R10) 23|11b41 20r9 21r9
+15U15*readSwitches 15^29 16>29 23|28b15 45l9 45t21
+15p29 D(15|13R10) 23|28b29 32r9 35r17 40r13 40r44 41r13 42r13 43r13
+16i29 n{integer} 23|29b29 32r43 33r35 34r39 38r35
+17U15*readGoLines 17^28 17>55 23|50b15 77l9 77t20
+17p28 D(15|13R10) 23|50b28 65r13 66r13 68r13 69r13 70r13 71r13 72r13 73r13
+. 74r13 75r13
+17i55 m{integer} 23|50b55 56r35
+18U15*readStopLines 18^30 18>57 18>60 23|81b15 105l9 105t22
+18p30 D(15|13R10) 23|81b30 92r9 93r9 94r9 95r9 96r9 97r9 98r9 99r9 100r9
+. 101r9 102r9 103r9
+18i57 m{integer} 23|81b57 87r29 87r36
+18i60 k{integer} 23|81b60 87r38
+19U15*readTrains 19^27 20>27 23|109b15 132l9 132t19
+19p27 D(15|13R10) 23|109b27 119r13 119r44 120r13 121r13 122r13 123r13 124r13
+. 125r13 126r13 129r17
+20i27 p{integer} 23|110b27 115r35
+X 23 readfunctions.adb
+12p9 My_In_File{10|52P9} 16m14 16r14 17r14 18r14 19m15 19r15
+13i9 timeLength{integer} 17m26 20r16
+14i9 mult{integer} 18m26 21r19
+30i9 x{integer} 39m18 41r43
+33i13 I{integer} 35r26
+34i17 J{integer} 35r29
+38i13 I{integer} 40r25 40r47 41r25 42r25 43r25
+51i9 x{integer} 57m18 65r22 68r35
+52i9 y{integer} 58m18 65r25 69r36
+53i9 l{integer} 59m18 70r36
+54i9 z{integer} 60m18 71r38
+56i13 I{integer} 65r32 66r22 66r49 68r22 69r22 70r22 71r22 72r22 73r22 74r22
+. 75r22
+82i9 x{integer} 88m14 92r18 94r31
+83i9 y{integer} 89m14 92r21 95r32
+84i9 l{integer} 90m14 98r33
+85i9 z{integer} 91m14 99r34
+87i9 I{integer} 92r28 93r18 93r45 94r18 95r18 96r18 97r18 98r18 99r18 100r18
+. 101r18 102r18 103r18
+111i9 x{integer} 116m18 123r36 128m22 129r48
+112i9 y{integer} 117m18 121r47
+113i9 z{integer} 118m18 119r41 127r39
+115i13 I{integer} 119r23 120r23 120r42 121r23 122r23 123r23 124r23 125r23
+. 126r23 129r27
+127i17 J{integer} 129r41
+X 24 switchtaskclass.ads
+13K9*SwitchTaskClass 22|7w6 7r27 24|171e20
+15R10*Switch 23|40r36 24|40e15
+16P10*SwitchPointer(15R10)
+36i9*changeTime{integer} 23|41m29
+38b9*isOccupied{boolean} 23|42m29
+39b9*isBroken{boolean} 23|43m29
+44A10*SwitchArray(16P10)<integer> 23|32r27
+70R10*Train 23|119r34 24|83e15
+71i9*numberTrain{integer} 23|120m27
+72i9*numberPassengers{integer} 23|121m27
+73i9*speed{integer} 23|123m27
+76i9*currentState{integer} 23|122m27
+77b9*isStop{boolean} 23|124m27
+79b9*isBroken{boolean} 23|125m27
+80b9*isWait{boolean} 23|126m27
+81a9*stations{51|3A10} 23|129m31
+X 38 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 51 types.ads
+3A10*Int_Array(integer)<integer>
+4A10*Int_Array2(integer)<integer><integer>
+

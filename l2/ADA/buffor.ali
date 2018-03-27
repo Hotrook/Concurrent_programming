@@ -1,0 +1,119 @@
+V "GNAT Lib v2016"
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=2
+
+U buffor%b		buffor.adb		6852ffef OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U buffor%s		buffor.ads		32b063d5 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W tupleclass%s		tupleclass.ads		tupleclass.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092931 bf4f806b ada.finalization%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nuflra.ads		20160516092928 4056ab7a ada.numerics.float_random%s
+D a-reatim.ads		20160516092928 a87e2da7 ada.real_time%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D buffor.ads		20170519161407 b47c9938 buffor%s
+D buffor.adb		20170526174944 dc2e66d7 buffor%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-c.ads		20160516092927 5421119b interfaces.c%s
+D system.ads		20160516092931 c3282aa7 system%s
+D s-atacco.ads		20160516092931 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-finroo.ads		20160516092931 4ff27390 system.finalization_root%s
+D s-multip.ads		20160516092926 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20160516210021 3be6931c system.os_constants%s
+D s-osinte.ads		20160516092931 8eb5b5b4 system.os_interface%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092929 99ade2f2 system.random_numbers%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stausa.ads		20160516092930 017a0a05 system.stack_usage%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20160516092929 801abd01 system.task_info%s
+D s-taspri.ads		20160516092928 e3ab4429 system.task_primitives%s
+D s-taprop.ads		20160516092928 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20160516092932 0766baa7 system.tasking%s
+D s-taprob.ads		20160516092928 502249e3 system.tasking.protected_objects%s
+D s-tpoben.ads		20160516092932 b641f948 system.tasking.protected_objects.entries%s
+D s-tasren.ads		20160516092927 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20160516092929 70812003 system.tasking.stages%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D tupleclass.ads	20170519160607 37c00f46 tupleclass%s
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 2r6 2r37
+X 4 a-numeri.ads
+16K13*Numerics 32e17 11|2r10 2r41
+X 5 a-nuflra.ads
+41K22*Float_Random 74e30 11|2w19 2r50
+X 10 a-uncdea.ads
+20u15*Unchecked_Deallocation 11|1w10
+X 11 buffor.ads
+7K9*Buffor 25l5 25e11 12|5b14 39l5 39t11
+11T15*Bufor 11d22 14l9 14e14 19r33 12|9b15 34l9 34t14
+11i22 N{integer} 12|12r25 22r42 25r26 27r38 28r38 29r38
+12Y15 Take 12>21 12>26 12>31 12|26b22 31l19 31t23
+12i21 TID{integer} 12|27r48
+12i26 LID{integer} 12|28r48
+12i31 priority{integer} 12|29r53
+13Y15 Give 13<21 13<26 13<31 12|17b22 23l19 23t23
+13i21 TID{integer} 12|18m17 18r17
+13i26 LID{integer} 12|19m17 19r17
+13i31 priority{integer} 12|20m17 20r17
+19P10*BuforPointer(11T15) 20r60
+20A10*BuforPointerArray(19P10)<integer>
+X 12 buffor.adb
+10i9 first{integer} 18r28 19r28 20r33 22m17 22r27 27r22 28r22 29r22
+11i9 size{integer} 16r18 21m17 21r25 25r18 27r28 28r28 29r28 30m17 30r25
+12a9 buf(39|10R10) 18r24 19r24 20r29 27m17 28m17 29m17
+17i28 TID{integer}
+17i33 LID{integer}
+17i38 priority{integer}
+26i28 TID{integer}
+26i33 LID{integer}
+26i38 priority{integer}
+X 26 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 39 tupleclass.ads
+6K9*TupleClass 11|4w6 4r22 39|16e15
+10R10*Tuple 12|12r32 39|12e15
+11i9*TID{integer} 12|18r35 27m41
+11i14*LID{integer} 12|19r35 28m41
+11i19*priority{integer} 12|20r40 29m41
+

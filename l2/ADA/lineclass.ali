@@ -1,0 +1,102 @@
+V "GNAT Lib v2016"
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U lineclass%b		lineclass.adb		5456a188 NE OO PK IL
+
+U lineclass%s		lineclass.ads		d3b80bbb EE OO PF PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nuflra.ads		20160516092928 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20160516092931 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092927 e53d8b8e interfaces.c_streams%s
+D lineclass.ads		20170522004830 5ad90bc4 lineclass%s
+D lineclass.adb		20170524204300 0e8faa4c lineclass%b
+D system.ads		20160516092931 c3282aa7 system%s
+D s-crtl.ads		20160516092927 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092933 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092929 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20160516092931 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20160516092930 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20160516092927 aedef97e system.stream_attributes%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092931 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 13|1r6 2r6 2r37 3r6 3r23
+X 4 a-numeri.ads
+16K13*Numerics 32e17 13|2r10 2r41
+X 5 a-nuflra.ads
+41K22*Float_Random 74e30 13|2w19 2r50
+X 8 a-textio.ads
+49K13*Text_IO 471e16 13|3w10 3r27
+X 10 a-uncdea.ads
+20u15*Unchecked_Deallocation 13|1w10
+X 13 lineclass.ads
+8K9*LineClass 43l5 43e14 14|4b14 56l5 56t14
+12R10*Line 12d16 25e15 30r61 35p15 35r37 36p15 36r33 37p15 37r39 38p15 38r39
+. 39p14 39r42 14|8r37 14r33 19r42 35r39 45r39
+12i16*I{integer} 13r25
+13i9*id{integer}
+14i9*first{integer}
+15i9*second{integer}
+16i9*length{integer}
+17i9*maxSpeed{integer}
+18i9*minStop{integer}
+19i9*capacity{integer} 14|23r31 48r58 49r31
+20i9*occupied{integer} 14|23r18 38m15 38r42 48m15 48r42 49r18
+21i9*train{integer} 14|11m11 16m11
+22b9*isStopLine{boolean} 14|22r14 37r14 47r14
+23b9*isOccupied{boolean} 14|10m11 29r22 40m11 50m19 53m15
+24b9*isBroken{boolean}
+30A10*Line_Array(12R10)<integer>
+35U15*takeTrain 35^26 35>43 14|8b15 12t8
+35p26 V(12R10) 14|8b26 10r9 11r9
+35i43 numberTrain{integer} 14|8b43 11r20
+36U15*dosth 36^22 36>39 14|14b15 17t8
+36p22 V(12R10) 14|14b22 16r9
+36i39 numberTrain{integer} 14|14b39 16r20
+37U15*releaseLine 37^28 14|35b15 41l9 41t20
+37p28 L(12R10) 14|35b28 37r12 38r13 38r40 40r9
+38U15*reserveLine 38^28 14|45b15 55l9 55t20
+38p28 L(12R10) 14|45b28 47r12 48r13 48r40 48r56 49r16 49r29 50r17 53r13
+39V14*checkIfOccupied{boolean} 39^31 14|19b14 31l9 31t24
+39p31 L(12R10) 14|19b31 22r12 23r16 23r29 29r20
+
